@@ -1,0 +1,292 @@
+cd gk:v2 && docker push us.icr.io/$MY_NAMESPACE/guestbook:v2
+[+] Building 0.0s (0/1)                                                     [+] Building 0.2s (1/2)                                                                                    docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+[+] Building 0.3s (1/2)                                                                                    docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+[+] Building 0.5s (1/2)                                                                                    docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+[+] Building 0.6s (1/2)                                                                                    docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+[+] Building 0.8s (2/2)                                                                                    docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+[+] Building 0.9s (4/12)                                                                                   docker:default
+ => [internal] load build definition from Dockerfile                                                                 0.0s
+ => => transferring dockerfile: 398B                                                                                 0.0s
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s
+ => [internal] load .dockerignore                                           [+] Building 1.1s (10/12)                                                                                  docker:default                               
+ => [internal] load build definition from Dockerfile                                                                 0.0sne@sha256:effc1ee6b93c4db0aab57
+ => => transferring dockerfile: 398B                                                                                 0.0s                               
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s
+ => => transferring context: 173B                                                                                    0.0s
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0s
+ => [internal] load build context                                           [+] Building 1.2s (11/12)                                                                                  docker:default                               
+ => [internal] load build definition from Dockerfile                                                                 0.0s                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                           [+] Building 1.4s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0s                               
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7sules                           
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0s                               
+ => [internal] load build context                                                                                    0.1sS nodeuser -G nodejs           
+ => => transferring context: 154.17kB                                       [+] Building 1.5s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 1.7s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 1.8s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.0s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.1s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.3s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.4s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.6s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.7s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 2.9s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.0s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.2s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.3s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.5s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.6s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.8s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 3.9s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.1s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.2s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.4s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.5s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.7s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 4.8s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.0s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.1s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.3s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.4s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.6s (11/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.6s (12/12)                                                                                  docker:default                               
+ => => transferring dockerfile: 398B                                                                                 0.0sules                           
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7s                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                       [+] Building 5.8s (12/13)                                                                                  docker:default                               
+ => [internal] load .dockerignore                                                                                    0.0sules                           
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0s                               
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                                                                0.1sS nodeuser -G nodejs           
+ => CACHED [2/8] WORKDIR /app                                                                                        0.0s                               
+ => CACHED [3/8] COPY node_modules ./node_modules                           [+] Building 5.9s (12/13)                                                                                  docker:default                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                                                                0.1s                               
+ => CACHED [2/8] WORKDIR /app                                                                                        0.0s                               
+ => CACHED [3/8] COPY node_modules ./node_modules                           [+] Building 6.1s (12/13)                                                                                  docker:default                               
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0sS nodeuser -G nodejs           
+ => [internal] load build context                                                                                    0.1s                               
+ => => transferring context: 154.17kB                                                                                0.1s                               
+ => CACHED [2/8] WORKDIR /app                                                                                        0.0s                               
+ => CACHED [3/8] COPY node_modules ./node_modules                           [+] Building 6.1s (13/13) FINISHED                                                                         docker:default                               
+ => [internal] load build definition from Dockerfile                                                                 0.0s                               
+ => => transferring dockerfile: 398B                                                                                 0.0s                               
+ => [internal] load metadata for docker.io/library/node:20-alpine                                                    0.7sS nodeuser -G nodejs           
+ => [internal] load .dockerignore                                                                                    0.0s                               
+ => => transferring context: 173B                                                                                    0.0s                               
+ => [1/8] FROM docker.io/library/node:20-alpine@sha256:effc1ee6b93c4db0aab5729f3bc25d9df841e9b88ec3c4683d5a948a3755  0.0s                               
+ => [internal] load build context                                                                                    0.1s
+ => => transferring context: 154.17kB                                                                                0.1s
+ => CACHED [2/8] WORKDIR /app                                                                                        0.0s
+ => CACHED [3/8] COPY node_modules ./node_modules                                                                    0.0s
+ => CACHED [4/8] COPY package*.json ./                                                                               0.0s
+ => CACHED [5/8] COPY server.js ./                                                                                   0.0s
+ => [6/8] COPY public ./public/                                                                                      0.0s
+ => [7/8] RUN addgroup -S nodejs && adduser -S nodeuser -G nodejs                                                    0.2s
+ => [8/8] RUN chown -R nodeuser:nodejs /app                                                                          4.4s
+ => exporting to image                                                                                               0.5s
+ => => exporting layers                                                                                              0.4s
+ => => writing image sha256:a6326b4cbb614bcd8b6e2a619a5af7dee3ecab2f4eb935ae3749667bc57fb374                         0.0s
+ => => naming to us.icr.io/sn-labs-rommelcgalar/guestbook:v2                                                         0.0s
+The push refers to repository [us.icr.io/sn-labs-rommelcgalar/guestbook]
+e73356792106: Pushed 
+50a9811d6e49: Pushed 
+7d050bd10977: Pushed                                                         92.67kB6624: Layer already exists 
+16c36498731a: Layer already exists 
+bdd1aecff400: Layer already exists 
+13095ad662a5: Layer already exists 
+9fd30ff9d315: Layer already exists 
+875b8fb676b2: Layer already exists 
+8c0ba6a3f014: Layer already exists 
+3e01818d79cd: Layer already exists 
+v2: digest: sha256:d7b3b3dd745ce6e11e33c4a45e618b9e8e3c12a5d432a812274312e08acb117d size: 2619

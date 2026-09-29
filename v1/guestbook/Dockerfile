@@ -11,8 +11,7 @@ COPY server.js ./
 COPY public ./public/
 
 # Create non-root user
-RUN addgroup -g 1001 -S nodejs && \
-    adduser -S nodeuser -u 1001
+RUN addgroup -S nodejs && adduser -S nodeuser -G nodejs
 
 RUN chown -R nodeuser:nodejs /app
 USER nodeuser

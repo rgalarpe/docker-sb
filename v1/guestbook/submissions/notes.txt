@@ -1,0 +1,2 @@
+For Option 1: AI-Graded Submission and Evaluation: Copy and paste the code of the file index.html and save it in a text file named app for the final project submission and evaluation. You will be required to provide the code from this file, showing the default title and header.
+

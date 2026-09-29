@@ -1,0 +1,4 @@
+[theia: guestbook]
+$ kubectl get hpa guestbook
+NAME        REFERENCE              TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+guestbook   Deployment/guestbook   cpu: 10%/5%   1         10        1          24s

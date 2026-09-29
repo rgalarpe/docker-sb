@@ -1,0 +1,11 @@
+kubectl get hpa guestbook --watch
+NAME        REFERENCE              TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+guestbook   Deployment/guestbook   cpu: 10%/5%   1         10        10         14m
+guestbook   Deployment/guestbook   cpu: 8%/5%    1         10        10         15m
+guestbook   Deployment/guestbook   cpu: 11%/5%   1         10        10         15m
+guestbook   Deployment/guestbook   cpu: 9%/5%    1         10        10         16m
+guestbook   Deployment/guestbook   cpu: 10%/5%   1         10        10         16m
+guestbook   Deployment/guestbook   cpu: 9%/5%    1         10        10         16m
+guestbook   Deployment/guestbook   cpu: 11%/5%   1         10        10         16m
+guestbook   Deployment/guestbook   cpu: 9%/5%    1         10        10         17m
+guestbook   Deployment/guestbook   cpu: 8%/5%    1         10        10         17m

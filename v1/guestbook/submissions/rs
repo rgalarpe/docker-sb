@@ -1,0 +1,9 @@
+[theia: guestbook]
+$ kubectl rollout undo deployment/guestbook --to-revision=1
+deployment.apps/guestbook rolled back
+[theia: guestbook]
+$ kubectl get rs
+NAME                               DESIRED   CURRENT   READY   AGE
+guestbook-56cb478c7                5         5         5       16m
+guestbook-79cf4c69c8               8         6         3       60m
+openshift-web-console-7bc5c56485   2         2         2       98m
